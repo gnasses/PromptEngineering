@@ -1,0 +1,12 @@
+Create a Game or Simulation tailored to a specific scenario or expertise 
+  
+•Describe in as much detail as possible 
+•Use Specific tasks and requests 
+•Ask for additional feedback or input 
+
+Example:
+Create a Network Engineering game which is based on the persona of a Network Engineer trying to solve performance problems through troubleshooting.
+You will describe the scenario the engineer faces and ask a question about troubleshooting the scenario. 
+Scanarios should be based on real-world network problems within a hospital system. 
+After I provide an answer, you will grade that answer on a scale of A (best) to F (completely wrong), then provide suggestions on possible better approaches that could have been chosen. 
+
