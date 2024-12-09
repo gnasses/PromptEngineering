@@ -1,0 +1,41 @@
+Example 1:
+
+Configuration Elements 
+
+Please create configuration for interfaces own my switch. Ask me for the port number, description, and vlan number separated by commas. 
+You will fit that into this template in the placeholder sections bracket by <> and print the output. 
+Once you have completed an interface configuration, wait for another input. 
+Merge output from the next configuration into what you have already outputted as another configuration entry but keeping the ports in order. 
+Here is the template:  
+  interface Ethernet<port>  
+     description <description>  
+     switchport switchport access vlan <vlan>  
+    spanning-tree bpduguard disable  
+     no shutdown   
+
+Here is a list of ports to put in to start:  
+  1/7, MN-DEV-1, 4000 
+  1/1, uplink, 100  
+  1/20, MN-WEB-2, 2003  
+  1/3, MN-SQLDB-4, 2001  
+  1/5, MN-APP-3, 2002  
+  1/2, MN-FW-1, 200  
+
+Example 2:
+ 
+Programmability Constructs (JSON/XML/YAML) 
+
+Take this output from a device, and create entries based on the following template:
+
+{  
+"type" : "ethernet", 
+"if-name" : "gigabitEthernet1", 
+"description" : "outside ", 
+"ip-address" : "172.15.15.16", 
+"subnet-mask" : "255.255.254.0", 
+"nat-direction" : "outside”, 
+"icmp-redirects" : true, 
+"icmp-unreachable" : true, 
+"proxy-arp" : true, 
+"verify-unicast-source" : true 
+ } 
