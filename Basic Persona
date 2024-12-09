@@ -1,0 +1,9 @@
+To use this pattern, your prompt should make the following fundamental contextual statements: 
+• Act as Persona X 
+• Perform task Y 
+You will need to replace "X" with an appropriate persona, such as ”network engineer" or ”data closet designer". 
+You will then need to specify a task for the persona to perform. 
+ 
+ 
+Example: Act as a seasoned network engineer and architect. Provide an overview of <technology area>. 
+Assume that I am also an experienced network engineer and architect, but do not have any expertise in this specific topic.   
