@@ -9,6 +9,7 @@ You will then need to specify the steps A, B, C that you know need to be part of
  
  
 Example: I would like to configure BGP on an internet edge router. 
-I know that I need to perform configuration steps on the ISP-facing interface, then BGP routing configuration steps on the router, then need to turn up the interface to the ISP and verify routing. 
+I know that I need to perform configuration steps on the ISP-facing interface, then BGP routing configuration steps on the router, 
+then need to turn up the interface to the ISP and verify routing. 
 Provide a complete sequence of steps for me. Fill in any missing steps. 
  
