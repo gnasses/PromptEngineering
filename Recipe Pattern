@@ -1,0 +1,14 @@
+To use this pattern, your prompt should make the following fundamental contextual statements: 
+- I would like to achieve X  
+- I know that I need to perform steps A,B,C 
+- Provide a complete sequence of steps for me 
+- Fill in any missing steps 
+- (Optional) Identify any unnecessary steps 
+You will need to replace "X" with an appropriate task. 
+You will then need to specify the steps A, B, C that you know need to be part of the recipe / complete plan. 
+ 
+ 
+Example: I would like to configure BGP on an internet edge router. 
+I know that I need to perform configuration steps on the ISP-facing interface, then BGP routing configuration steps on the router, then need to turn up the interface to the ISP and verify routing. 
+Provide a complete sequence of steps for me. Fill in any missing steps. 
+ 
